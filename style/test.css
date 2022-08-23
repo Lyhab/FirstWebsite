@@ -1,0 +1,30 @@
+body{
+    height: 5000px;
+}
+.wrapper{
+    background-color: lightblue;
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.text-container{
+    background-color: lightpink;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-div{
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p::selection{
+    background-color: black;
+    color: whitesmoke;
+}
